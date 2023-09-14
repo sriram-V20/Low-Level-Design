@@ -1,37 +1,26 @@
-# Low Level System Design
+# Low-Level Design Preparation Notes
 
-This project contains multiple LLD codes for system design interviews. <br/>
-Please raise issues and pull requests for fixes and updates.
+This repository contains all my notes and learnings related to Low-Level Design (LLD). As I progress through my preparation, I'll be documenting various design patterns, principles, and real-world examples to solidify my understanding and share knowledge.
 
-1. Cache
-2. Event Bus
-3. Rate Limiter
-4. Service Orchestrator
+## Contents
 
-The following resources are useful for learning low level design.
+- **Design Patterns**: Detailed notes on various design patterns, their use cases, and implementation details.
+- **Principles**: Core principles of low-level design, including SOLID principles, DRY, and more.
+- **Real-world Examples**: Practical examples of how different designs are implemented in real-world scenarios.
+- **Challenges**: Personal challenges and exercises to test my understanding of the concepts.
 
-### Design Patterns
+## How to Use This Repository
 
-[Refactoring Guru](https://refactoring.guru/)
+1. **Navigation**: Each topic or design pattern will have its own directory. Navigate to the respective directory to find detailed notes and examples.
+2. **Feedback**: If you have any suggestions or feedback, please open an issue or submit a pull request.
+3. **Collaboration**: I'm open to collaboration! If you'd like to contribute or share your own notes, please get in touch.
 
-### Memory Management
+## Future Plans
 
-[Texas University Memory Models](https://www.cs.utexas.edu/~bornholt/post/memory-models.html)
+- Add more design patterns and update existing ones with more examples.
+- Include diagrams and flowcharts for better visualization.
+- Create a section dedicated to best practices in LLD.
 
-[Slack reducing memory footprint](https://slack.engineering/reducing-slacks-memory-footprint)
+## License
 
-### Rate Limiting
-
-[Apache Kafka Exactly Once processing](https://docs.google.com/document/d/11Jqy_GjUGtdXJK94XGsEIK7CP1SnQGdp2eF0wSw9ra8)
-
-[Uber Rate Limiter](https://github.com/uber-go/ratelimit/blob/master/ratelimit.go)
-
-[Martin Fowler Circuit Breaker](https://martinfowler.com/bliki/CircuitBreaker.html)
-
-[Netflix Hystrix](https://github.com/Netflix/Hystrix)
-
-[Amazon AWS Shuffle Sharding](https://github.com/awslabs/route53-infima)
-
-### Course 
-
-https://interviewready.io/
+This repository is open-source and free to use. However, please provide attribution if you use or reference any of the notes.
