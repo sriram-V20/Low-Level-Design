@@ -20,7 +20,3 @@ This repository contains all my notes and learnings related to Low-Level Design 
 - Add more design patterns and update existing ones with more examples.
 - Include diagrams and flowcharts for better visualization.
 - Create a section dedicated to best practices in LLD.
-
-## License
-
-This repository is open-source and free to use. However, please provide attribution if you use or reference any of the notes.
