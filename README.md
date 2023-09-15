@@ -13,10 +13,28 @@ This repository contains all my notes and learnings related to Low-Level Design 
 
 1. **Navigation**: Each topic or design pattern will have its own directory. Navigate to the respective directory to find detailed notes and examples.
 2. **Feedback**: If you have any suggestions or feedback, please open an issue or submit a pull request.
-3. **Collaboration**: I'm open to collaboration! If you'd like to contribute or share your own notes, please get in touch.
 
 ## Future Plans
 
 - Add more design patterns and update existing ones with more examples.
 - Include diagrams and flowcharts for better visualization.
 - Create a section dedicated to best practices in LLD.
+
+## File Structure
+    - service-orchestrator
+        - src
+            - main/Java
+                - Algorithms
+                    - ConsistentHashing.java
+                    - Router.java
+                    - WeightedRoundRobin.java
+                - Models
+                    - Node.java
+                    - Request.java
+                    - Service.java
+                - LoadBalancer.java
+            - Test/Java
+                - LBTest.java
+                - RouterTest.java
+                    
+                
